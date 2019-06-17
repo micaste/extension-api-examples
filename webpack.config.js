@@ -32,6 +32,7 @@ module.exports = {
     ],
     devServer: {
         contentBase: path.resolve(__dirname, 'dist'),
+        https: true,
         port: 4000,
         headers: {
             "Access-Control-Allow-Origin": "*"
